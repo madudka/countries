@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="list_fragment_label">Countries</string>
+    <string name="info_fragment_label">Info</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">Something goes wrong…\n%1$s</string>
+    <string name="close">Close</string>
+    <string name="country_name">%1$s (%2$s,%3$s)</string>
+    <string name="country_region">Region: %1$s (%2$s)</string>
+    <string name="country_capital">Capital: %1$s</string>
+    <string name="country_currencies">Currencies:\n%1$s</string>
+    <string name="country_timezones">Timezones:%1$s</string>
+</resources>

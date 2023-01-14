@@ -1,0 +1,30 @@
+package com.madudka.countries.model
+
+data class CountryModel(
+    val alpha2Code: String,
+    val alpha3Code: String,
+    @Transient private val altSpellings: List<String>,
+    @Transient private val area: Double,
+    @Transient private val borders: List<String>,
+    @Transient private val callingCodes: List<String>,
+    val capital: String?,
+    @Transient private val cioc: String,
+    val currencies: List<Currency>?,
+    @Transient private val demonym: String,
+    @Transient private val flag: String,
+    val flags: Flags,
+    @Transient private val gini: Double,
+    @Transient private val independent: Boolean,
+    @Transient private val languages: List<Language>,
+    @Transient private val latlng: List<Double>,
+    val name: String,
+    @Transient private val nativeName: String,
+    @Transient private val numericCode: String,
+    @Transient private val population: Int,
+    val region: String,
+    @Transient private val regionalBlocs: List<RegionalBloc>,
+    val subregion: String,
+    val timezones: List<String>,
+    @Transient private val topLevelDomain: List<String>,
+    @Transient private val translations: Translations
+)
